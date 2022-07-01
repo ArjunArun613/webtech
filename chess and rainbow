@@ -1,0 +1,187 @@
+//chess//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CHESS BOARD</title>
+    <link rel="stylesheet" href="chess.css">
+</head>
+<body>
+    <h1>CHESS BOARD</h1>
+    <table>
+        <tr>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+        </tr>
+        <tr>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+        </tr>
+        <tr>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+        </tr>
+        <tr>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+        </tr>
+        <tr>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+        </tr>
+        <tr>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+        </tr>
+        <tr>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+        </tr>
+        <tr>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+            <td id="bl"></td>
+            <td id="wh"></td>
+        </tr>
+    </table>
+</body>
+</html>
+
+//chess css//
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+table{
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+}
+
+td{
+    height: 75px;
+    width: 75px;
+}
+
+#wh{
+    background-color:white;
+}
+
+#bl{
+    background-color: black;
+}
+
+
+//rainbow//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>VIBGYOR IMPLEMENTATION</title>
+    <link rel="stylesheet" href="VIBGYOR.css">
+</head>
+<body>
+    <h1>VIBGYOR IMPLEMENTATION</h1>
+    <table>
+        <tr>
+            <td id="one"></td>
+            <td id="two"></td>
+            <td id="three"></td>
+            <td id="four"></td>
+            <td id="five"></td>
+            <td id="six"></td>
+            <td id="seven"></td>
+        </tr>
+    </table>
+</body>
+</html>
+
+//rainbow css//
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+
+td{
+    height: 600px;
+    width: 150px;
+    border: 6px solid whitesmoke;
+}
+
+#one{
+    background-color:#9400D3;
+}
+
+#two{
+    background-color:#4B0082;
+}
+
+#three{
+    background-color:#0000FF;
+}
+
+#four{
+    background-color:#00FF00;
+}
+
+#five{
+    background-color:#FFFF00;
+}
+
+#six{
+    background-color:#FF7F00;
+}
+
+#seven{
+    background-color:#FF0000;
+}
